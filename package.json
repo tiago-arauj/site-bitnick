@@ -1,0 +1,53 @@
+{
+  "name": "organik",
+  "version": "0.0.1",
+  "description": "Organik",
+  "descriptionComplete": "Contrato inteligente financiando a Agricultura Orgânica Eventos Orgânicos | organik",
+  "author": "Bruno Messias",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "generate:gitlab_ci": "GENERATION_TYPE=gitlab_ci nuxt generate",
+    "generate:production": "GENERATION_TYPE=production nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "latest",
+    "element-ui": "latest",
+    "epic-spinners": "latest",
+    "jquery": "latest",
+    "js-cookie": "latest",
+    "moment": "latest",
+    "node-vibrant": "^3.1.6",
+    "nuxt": "latest",
+    "nuxt-client-init-module": "latest",
+    "reset-css": "latest",
+    "rss-parser": "latest",
+    "save": "^2.4.0",
+    "v-money": "latest",
+    "vue": "^2.6.12",
+    "vue-api-query": "latest",
+    "vue-credit-card": "0.0.11",
+    "vue-moment": "latest",
+    "vue-numeral-filter": "latest",
+    "vue-slick": "latest",
+    "vue-smoothscroll": "^0.2.0",
+    "vue-the-mask": "latest",
+    "webpack-node-externals": "latest"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.14.1",
+    "nodemon": "^1.19.4",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.3.1"
+  }
+}

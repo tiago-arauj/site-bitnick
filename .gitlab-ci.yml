@@ -1,0 +1,18 @@
+image: node:lts
+
+before_script:
+  - npm install
+
+cache:
+  paths:
+    - node_modules/
+
+pages:
+  script:
+    - npm run generate:gitlab_ci
+    - mv dist public
+  artifacts:
+    paths:
+      - public
+  only:
+    - merge_requests
