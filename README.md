@@ -1,4 +1,4 @@
-# Site Organik
+# Site Bitnick
 > Site Institucional, e Sistema de Compra de tokens
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4f28f816-bae6-48a9-9168-3dd677ac24e5/deploy-status)](https://app.netlify.com/sites/nifty-morse-1d900a/deploys)
@@ -12,7 +12,7 @@
     * Registro
     * Persistência de sessão
     * Importação do notícias
-    * Comunicação com API de Organik
+    * Comunicação com API de bitnick
     * Validação dos formulários
     * Tratamento de respostas por notificação
     * Tratamento da experiência do usuário
