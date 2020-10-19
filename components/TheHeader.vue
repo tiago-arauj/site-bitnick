@@ -37,7 +37,7 @@ export default {
     .theHeader-content
       .logo
         nuxt-link(to="/")
-          img.2-img(src="~/static/images/2.png" alt="2")
+          img.2-img(src="~/static/images/bitnick-branco.png" alt="bitinick")
 
       input.changeMenu#changeMenu(type="checkbox")
       label(for="changeMenu")

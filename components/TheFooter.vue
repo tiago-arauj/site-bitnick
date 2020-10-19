@@ -20,7 +20,7 @@
     .theFooter-content
       .theFooter-column.logo
         nuxt-link(to="/")
-          img.logo-img(src="~/static/images/2.png" alt="logo")
+          img.logo-img(src="~/static/images/bitnick-branco.png" alt="bitnick")
         span.logo-copy Organik © Todos os direitos reservados. 2018.
       .theFooter-column.siteMap
         h4.theFooter-title Mapa do site

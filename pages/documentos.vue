@@ -70,7 +70,7 @@
 
 <template lang="pug">
   .page
-    PageBanner(label="Documentos", title="Entenda e acompanhe detalhadamente nosso empreendimente", image="banner-documentos.png")
+    PageBanner(label="Documentos", title="Entenda e acompanhe detalhadamente nosso empreendimente", image="black.jpg")
       p A segurança desse empreendimento está findada nas melhores ferramentas garantidoras da integridade, confiabilidade e disponibilidade de informações que existem no mundo atualmente. Sendo assim, toda a documentação inerente ao negócio, é original, confiavel e está disponível a todos, 24 horas por dia.
     .page-content
       section.sectionFiles

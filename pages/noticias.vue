@@ -83,7 +83,7 @@
 
 <template lang="pug">
   .page
-    PageBanner(label="O mundo da criptomoeda", title="Mantenha-se atualizado sobre Criptomoedas", image="banner-noticias.png")
+    PageBanner(label="O mundo da criptomoeda", title="Mantenha-se atualizado sobre Criptomoedas", image="black.jpg")
       p As criptomoedas estão se reinventando continuamente, para isso separamos as principais notícias do mundo sobre Criptomoedas a fim de garantir a informação de qualidade a todos os interessados sobre nosso empreendimento
     .page-content
       section.sectionNews
