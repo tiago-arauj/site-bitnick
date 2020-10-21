@@ -32,7 +32,7 @@ let config = {
   /*
   ** Customize the progress-bar color
   */
-  loading: {color: '#fff'},
+  loading: {color: '#EBBB17'},
 
   /*
   ** Global CSS

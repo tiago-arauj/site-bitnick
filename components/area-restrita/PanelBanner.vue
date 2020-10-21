@@ -28,7 +28,7 @@ export default {
       min-width: 650px
       width: 50%
     &-textBox
-      color: #FFFFFF
+      color: #EBBB17
       position: absolute
       top: 160px
       left: 0
@@ -51,7 +51,7 @@ export default {
     &-button
       background-color: var(--highlightColor)
       border: none
-      color: #FFFFFF
+      color: #EBBB17
       margin: 16px 0
       text-transform: lowercase
     &-image

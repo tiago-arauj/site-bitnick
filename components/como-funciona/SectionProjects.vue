@@ -47,7 +47,7 @@ export default {
       max-width: 1024px
       padding: 24px 16px
     &-title
-      color: #FFFFFF
+      color: #EBBB17
     &-tabs
       /deep/
         .el-tabs__item
@@ -67,7 +67,7 @@ export default {
       margin-bottom: 15px
       /deep/
         .boxTitle-title
-          color: #FFFFFF
+          color: #EBBB17
     &-text
       color: #FFFFFF
   @media (max-width: 600px)
@@ -82,7 +82,7 @@ export default {
           .el-tabs__item
             text-align: center
           .el-tabs__nav-next, .el-tabs__nav-prev
-            color: #FFFFFF
+            color: #EBBB17
           .el-tabs__nav-wrap.is-scrollable
             display: flex
             align-items: center

@@ -71,7 +71,7 @@
   .theFooter
     align-items: center
     background-color: #21211E
-    color: #57b952
+    color: #FAAA21
     display: flex
     flex-direction: column
     justify-content: center
@@ -86,7 +86,7 @@
       padding: 16px
       margin: 16px 0
     &-title
-      color: #FFFFFF
+      color: #EBBB17
       font:
         family: 'BarlowCondensed-SemiBold'
         size: 1.25em
@@ -96,7 +96,7 @@
       font-size: .85em
       padding: 4px 0
       i[class^="el-icon"]
-        background-color: #52a94b
+        background-color:#FAAA21
         border-radius: 100%
         color: #08332d
         padding: 6px
@@ -110,7 +110,7 @@
       position: relative
       &::before
         content: ">"
-        color: #16735d
+        color: #FAAA21
         position: absolute
         left: 0
         top: 3px

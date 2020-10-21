@@ -60,7 +60,8 @@
 <template lang="pug">
   .page
     PageBanner(label="Participe", title="Compromisso e honestidade com nossos participe", image="black.jpg")
-      p Participe da revolução Orgânica. A Organik pretende reunir o maior de números de pessoas que entendam o quão importante é o cultivo e o consumo orgãnico, para que juntos possamos reformular o panorama agrícola atual. Participe dessa rede e interaja com pessoas e profissionais da saúde que compartilham desse propósito, remodelando a vida de várias pessoas, e viabilizando um mundo onde o consumo ideal não seja escasso e exclusivo para uma parte mínima da população.
+      p Participe da revolução Bitnick, a bitnick pretende reunir o maior numero de pessoas que colaborem e utilizem sua rede para que juntos possamos formar um corpo e reformular o panorama econômico atual, participe dessa rede e usufrua dos benefícios da aplicação correta de capital mediação profissional e transações financeiras rápidas e seguras esse é o nosso compromisso de honestidade de transparência.
+
     .page-content
       section.sectionPageTitle
         .sectionPageTitle-header
