@@ -53,7 +53,7 @@ export default {
             li.navbar-item.active
               nuxt-link.navbar-link(to="/como-funciona") Como Funciona
             li.navbar-item
-              nuxt-link.navbar-link(to="/documentos") Documentos
+              nuxt-link.navbar-link(to="/documentos") Taxas e serviços
             li.navbar-item
               nuxt-link.navbar-link(to="/participe") Participe
             li.navbar-item

@@ -94,6 +94,17 @@
         .sectionNews-list
           CarouselNews(:feeds="feeds", :numItems="numSlides * rss.length")
         .sectionNews-divButton
+
+         section.sectionTips
+        h4.sectionTips-title Dicas e orientações:
+        .sectionTips-list
+          CardTips.sectionTips-card(v-for="tip, key in tips", v-bind="tip", :key="key")
+      //section.sectionPartners
+        h4.sectionPartners-title Profissionais que recomendamos:
+        .sectionPartners-list
+          CardPartner.sectionPartners-card(v-for="partner, key in [1,2,3]", :key="key")
+      SectionNetwork
+
 </template>
 
 <style lang="sass" scoped>

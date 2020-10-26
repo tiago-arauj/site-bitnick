@@ -10,13 +10,13 @@
       CardPartner,
       SectionNetwork,
     },
-    data: () => ({
+    image: () => ({
       checkList: ['emagrecer'],
       tips: [
         {
-          image: 'https://source.unsplash.com/4_jhDO54BYg/315x195',
-          title: '10 benefícios dos alimentos orgânicos',
-          link: 'https://www.natue.com.br/natuelife/por-que-devemos-consumir-alimentos-organicos.html'
+          image: 'https://d33wubrfki0l68.cloudfront.net/326c0f7655566d44907b049a160041fb87cb3b04/f90d5/_nuxt/img/7573f1a.png',
+          title: 'Organik',
+          link: 'https://www.organik.net.br'
         },
         {
           image: 'https://source.unsplash.com/-YHSwy6uqvk/315x195',
@@ -59,26 +59,20 @@
 
 <template lang="pug">
   .page
-    PageBanner(label="Participe", title="Compromisso e honestidade com nossos participe", image="black.jpg")
-      p Participe da revolução Bitnick, a bitnick pretende reunir o maior numero de pessoas que colaborem e utilizem sua rede para que juntos possamos formar um corpo e reformular o panorama econômico atual, participe dessa rede e usufrua dos benefícios da aplicação correta de capital mediação profissional e transações financeiras rápidas e seguras esse é o nosso compromisso de honestidade de transparência.
+    PageBanner(label="Partícipe", title="Compromisso e honestidade com nossos partícipe", image="black.jpg")
+      p Tendo em vista o cenário geo político mundial, nós da bitnick entendemos que o fruto do trabalho é um direito natural do indivíduo. Segundo Aristóteles base para Tomás de Aquino, Michel Foucault, Javier Hervada, dentre outros o direito natural sempre foi visto inerente à natureza humana que deve ser respeitado independentemente de sua positivação no ordenamento jurídico, social e econômico. O respeito ao direito natural independe de fronteiras territoriais e temporais. Tendo este princípio como alicerce, nos propomos a estruturar uma rede de negócios ética e transparente. Entendemos também a necessidade de que nossos partícipes compactuem com estes pensamentos. Assim em mutua cooperação poderemos estabelecer padrões éticos e morais nas relações comerciais.
 
     .page-content
       section.sectionPageTitle
         .sectionPageTitle-header
           BoxTitle.sectionPageTitle-boxTitle(label="Saiba o que é ideal", title="Para Você")
-          p.sectionPageTitle-description O ideal para uma vida longa e próspera, é que ela seja saudável e feliz, para isso acreditamos que vida saudável se constroi com sabedoria, alimentação saudável, prática de exercícios, orações e meditações em forma de gratidão.
-      section.sectionFilter
-        h4.sectionFilter-question Quais desses itens abaixo são os mais próximos do que você quer?
-        el-checkbox-group.sectionFilter-group(v-model='checkList')
-          el-checkbox.sectionFilter-checkbox(label='emagrecer') Quero emagrecer.
-          el-checkbox.sectionFilter-checkbox(label='saudavel') Quero obter uma vida mais saudável.
-          el-checkbox.sectionFilter-checkbox(label='esporte') Quero otimizar meu esporte.
-          el-checkbox.sectionFilter-checkbox(label='sendentarismo') Quero sair do sendentarismo.
+          p.sectionPageTitle-description O ideal para se obter bons resultados financeiros é que você tenha em mente a necessidade de bons relacionamentos comerciais que somente são atingidos através de relações verdadeiras e transparentes.
+
       section.sectionTips
-        h4.sectionTips-title Dicas e orientações:
+       // h4.sectionTips-title Dicas e orientações:
         .sectionTips-list
           CardTips.sectionTips-card(v-for="tip, key in tips", v-bind="tip", :key="key")
-      //section.sectionPartners
+    //  section.sectionPartners
         h4.sectionPartners-title Profissionais que recomendamos:
         .sectionPartners-list
           CardPartner.sectionPartners-card(v-for="partner, key in [1,2,3]", :key="key")

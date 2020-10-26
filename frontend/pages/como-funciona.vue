@@ -41,14 +41,14 @@
 <template lang="pug">
   .page
     PageBanner(label="Como Funciona", title= "Entenda um pouco mais sobre gestão financeira no aplicativo Bitnick.", image="black.jpg")
-      p O aplicativo da Bitnick constitui-se no sistema baseado em bitcoins que utiliza a blockchain como plataforma. Nele é possível fazer transferências, compras e vendas de maneira pratica, segura e rápida contando com a proteção das operações criptografadas da cadeia de blocos. O aplicativo trabalha exclusivamente com bitcoins convertendo assim com quaisquer valores de quaisquer moedas após 24 horas da efetivação da transação assim sendo seu dinheiro estará aplicado no melhor investimento comprovadamente dos últimos 10 anos. Não resta duvidas que a blockchain será a plataforma comercial do futuro assim como a internet é a plataforma comercial do presente. Os benefícios do aplicativo envolvem confidencialidade, criptografia em camadas, múltiplas fontes de identificação além de ser imune as políticas econômicas de cada região. Dessa maneira a Bitnick protege seu capital da inflação decorrente de politicas econômicas garante a segurança e promove verdadeira rentabilidade de seu capital.
+      p Para todo o investimentos é necessário um processo contínuo de investigação e mediação, possibilitando assim transparência e segurança a relação de negócios, garantindo equidade entre as expectativas das partes. Pensando nisto a Bitnick.co desenvolveu um software que é uma ferramenta eficaz para tal aplicação. Constitui-se de um aplicativo que facilita as transações financeiras, utilizando recursos tecnológicos para mediação de conflitos e análise de investimentos. Esse campo analítico possibilita em si próprio uma infinidade de possibilidades. O aplicativo da Bitnick constitui-se no sistema baseado em bitcoins que utiliza a blockchain como plataforma. Nele é possível fazer transferências, compras e vendas de maneira prática, segura e rápida contando com a proteção das operações criptografadas da cadeia de blocos. O aplicativo trabalha exclusivamente com bitnicks convertendo seus valores após 24 horas da efetivação da transação. Não resta duvidas que a blockchain será a plataforma comercial do futuro assim como a internet é a plataforma comercial do presente. Os benefícios do aplicativo envolvem confidencialidade, criptografia em camadas, múltiplas fontes de identificação além de ser imune as políticas econômicas de cada região. Dessa maneira a Bitnick protege seu capital da inflação, garante a segurança e promove verdadeira rentabilidade de seu capital.
 
     .page-content
       section.sectionVideos
         SectionTitle Acompanhe nossa rede
         .sectionVideos-header
           BoxTitle.sectionVideos-boxTitle(label="Assista", title="Tempo real")
-          p.sectionVideos-description Exibimos tudo que acontece em tempo real porque a transparência do nosso processo e produto, e a honestidade da nossa rede de colaboradores são os pilares morais do projeto, garantindo garantindo a fidedignidade de um produto orgânico e de uma rede comprometida.
+          p.sectionVideos-description Exibimos tudo que acontece em tempo real porque a transparência é parte do nosso compromisso.
           //AppPagination
         //.sectionVideos-list
           /CardVideos(v-for="video, key in [1,2,3,4,5,6]", :key="key")
@@ -70,6 +70,7 @@
       flex-basis: 380px
       padding: 16px 0 16px 50px
     &-description
+
       margin: 0 30px
       text-align: justify
     &-list
@@ -78,18 +79,23 @@
       grid-column-gap: 4px
       grid-row-gap: 4px
 
+
     @media (max-width: 600px)
       .sectionVideos
         &-header
           flex-direction: column
         &-boxTitle
           flex-basis: auto
+
+
 </style>
 
 <style lang="sass">
   .theBanner
     &-text
       text-align: justify
+
+
 
 </style>
 

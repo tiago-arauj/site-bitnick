@@ -42,24 +42,24 @@
       section.theProject
         SectionTitle Conheça o projeto
         .theProject-list
-          BoxProject(label="Saiba", title="Quem Somos", buttonText="Saiba mais", image="conheca-01.png", link="como-funciona")
-            p Somos uma empresa que nasceu da necessidade de boas praticas do manejo no campo e da preservação da natureza, que investe em agricultura orgânica e auto sustentável. Através de técnicas especializadas, conseguimos restabelecer o ciclo natural que respeita as especificidades da planta. Produzir em grande escala, tornando assim a agricultura orgânica competitiva aos métodos convencionais geneticamente modificados e protegidos quimicamente. Utilizamos novos sistemas e metodologias cientificas replicáveis buscando, através de processos naturais e combinações orgânicas, obter o melhor resultado para resgatar a agricultura original e a mantutenção da saúde humana.
+          BoxProject(label="Saiba", title="Quem Somos", buttonText="Saiba mais", image="Capturar.png", link="como-funciona")
+            p Somos uma organização voltada a mediação de risco e arbitragem profissional com o objetivo de minimizar perdas e sinistros. A bitnick.co é uma empresa especializada em operações financeiras, mediação de risco e sistemas de pagamento que objetivam reduzir perdas nessas relações. Criamos assim um aplicativo que valoriza seu dinheiro investindo de maneira correta, intermediando as relações para que as expectativas sejam claras e objetivas, garantindo uma operação financeira rápida e segura.
+
           BoxProject(label="Como", title="Funciona", buttonText="Saiba mais", image="conheca-05.jpg", link="como-funciona")
-            p Hoje a maior parte dos produtos orgânicos são produzidos por empresas especializadas, cooperativas, pequenos produtores e assentamentos. Dentro deste contexto, você tem uma dificuldade em gerar alta produtividade pois quem produz de forma orgânica normalmente é independente e trabalha por convicção sem auxílio de grandes empresas e orgãos especializados. Os alimentos convencionais são muito mais fáceis de produzir e comercializar, assim atraindo muito mais agricultores. Quem opta em trabalhar de maneira orgânica é porque acredita em valores de cunho moral e sabem dos malefícios da agricultura convencional. Pensando nisso, desenvolvemos um Contrato Inteligente que envolve o financiamento de toda a linha de produção, colheita, preparação, logística e vendas integradas, possibilitando assim um aumento de produção e diminuição dos preços no mercado.
-          BoxProject(label="Como", title="Comprar", buttonText="Saiba mais", image="conheca-04.jpg", link="area-restrita/comprar-moeda")
+            p Para todo o investimentos é necessário um processo contínuo de investigação e mediação, possibilitando assim transparência e segurança a relação de negócios,
+          BoxProject(label="Como", title="Comprar", buttonText="Saiba mais", image="como-comprar.png", link="area-restrita/comprar-moeda")
             p Para comprar você precisa preencher a lista de cadastro, nos enviar uma cópia de sua habilitação e informar sua carteira. Você pode fazer qualquer tipo de investimento, além de usar suas criptomoedas para comprar em todos os estabelecimentos associados
       section.testimonials
         .testimonials-image
         .testimonials-content
-          blockquote.testimonials-text A
-            span.textStrong Organik
-            | me
-            span.textStrong beneficiou
-            | não só pelo fato do
-            span.textStrong investimento,
-            | mas também pela mudança de hábito e ganho de saúde através do incentivo a
-            span.textStrong agricultura orgânica e auto sustentável!
-          .testimonials-name Bruno Abrantes, Diretor de Tecnologia da empresa PabaCorp.
+          blockquote.testimonials-text Escolhe um
+            span.textStrong trabalho
+            | de
+            span.textStrong que gostes
+            | e não terás
+            span.textStrong que trabalhar,
+            | nem um dia na tua vida
+          .testimonials-name Confúcio
 </template>
 
 <style lang="sass" scoped>
@@ -92,7 +92,7 @@
 
      &-image
        background:
-         image: url("~static/images/fundo-depoimentos.png")
+
          size: contain
          repeat: no-repeat
          position-x: left

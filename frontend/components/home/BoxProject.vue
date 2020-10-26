@@ -16,7 +16,7 @@ export default {
     },
     image: {
       type: String,
-      default: 'conheca-01.png'
+      default: 'Capturar.png'
     },
     link: {
       type: String,
@@ -66,7 +66,7 @@ export default {
       padding: 8px 0
     &-button
       margin: 8px 0
-      
+
   @media (max-width: 600px)
     .theProject
       box-sizing: border-box

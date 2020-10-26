@@ -70,13 +70,13 @@
 
 <template lang="pug">
   .page
-    PageBanner(label="Documentos", title="Entenda e acompanhe detalhadamente nosso empreendimente", image="black.jpg")
-      p A segurança desse empreendimento está findada nas melhores ferramentas garantidoras da integridade, confiabilidade e disponibilidade de informações que existem no mundo atualmente. Sendo assim, toda a documentação inerente ao negócio, é original, confiavel e está disponível a todos, 24 horas por dia.
+    PageBanner(label="Informações", title="Entenda e acompanhe detalhadamente todos os custos e taxas do nosso serviço. Taxa zerada na fase de lançamento. ", image="black.jpg")
+
     .page-content
       section.sectionFiles
-        SectionTitle Documentos importantes
+        SectionTitle Informações importantes
         .sectionFiles-header
-          BoxTitle.sectionFiles-boxTitle(label="Acesse todos os", title="Documentos")
+          BoxTitle.sectionFiles-boxTitle(label="", title="Taxas e serviços")
           p.sectionFiles-description Disponibilizamos toda a documentação inerente ao empreendimento porque acreditamos na liberdade de acesso a informação e a transparência de processo, para garantir uma parceria produtiva, próspera e longa. Valorizamos todos os nossos colaboradores, oferencendo-o todo o suporte e informações possíveis.
         .sectionFiles-list
           CardFile(v-for="file, key in documents", :key="key", v-if="!loading", v-bind="file")

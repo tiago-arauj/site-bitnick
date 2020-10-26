@@ -30,7 +30,7 @@
           li.theFooter-item
             nuxt-link(to="/como-funciona") Como funciona
           li.theFooter-item
-            nuxt-link(to="/documentos") Documentos
+            nuxt-link(to="/documentos") Taxas e serviços
           li.theFooter-item
             nuxt-link(to="/participe") Participe
           li.theFooter-item

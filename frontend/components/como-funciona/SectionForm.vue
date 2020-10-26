@@ -78,14 +78,7 @@ export default {
   section.sectionNetwork
     SectionTitle Seja nosso parceiro
     .sectionNetwork-content
-      .sectionNetwork-knowIt
-        BoxTitle.sectionNetwork-boxTitle(label="Venha fazer, seja", title="Nosso Parceiro")
-        .sectionNetwork-text
-          p.paragraph O Brasil está se consolidando como um grande produtor de alimentos orgânicos. Já são, aproximadamente, 17 mil propriedades certificadas em todas as unidades da federação. A maior parte da produção é oriunda de pequenos produtores.
-          p.paragraph A Região Sul vem à frente, com pouco mais de seis mil produtores, seguida das regiões Sudeste e Nordeste com cerca de quatro mil produtores. Os estados que se destacam em número de produtores são: Paraná, Rio Grande do Sul, São Paulo, Santa Catarina, Pará, Minas Gerais, Pernambuco, Rio de Janeiro, Ceará, Distrito Federal e Bahia.
-          p.paragraph 63% são produtores exclusivos de orgânicos e 25% trabalham essencialmente com produtos orgânicos. Estima-se que cerca de um milhão de hectares é cultivado organicamente no Brasil e que os principais produtos são: Frutas, Hortaliças, Raízes, Tubérculos, Grãos e Produtos agroindustrializados
-          p.paragraph O consumo de produtos orgânicos cresce anualmente cerca de 25%, sendo que havia sido previsto R$ 4 bilhões para 2018. (Fonte: Sebrae Nacional - 05/04/2019)
-          a(href='#').paragraph.color-edir Conheça nossos produtos
+
       .sectionNetwork-formArea
         h6.sectionNetwork-formTitle Faça seu cadastro
         el-form.sectionNetwork-form(ref='form', :model='form', :rules="rules", status-icon=true)
