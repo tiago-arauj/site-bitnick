@@ -1,9 +1,6 @@
 # Site Bitnick
 > Site Institucional, e Sistema de Compra de tokens
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4f28f816-bae6-48a9-9168-3dd677ac24e5/deploy-status)](https://app.netlify.com/sites/nifty-morse-1d900a/deploys)
-
-
 ## Histórico de lançamentos
 
 * 0.0.1
